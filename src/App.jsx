@@ -19,7 +19,7 @@ function App() {
         {/* <Home/> */}
       <Header />
         <Routes>
-        <Route exact path="/MadanyDev" element={<Home/>} />
+        <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/courses/:id" element={<CourseDetails/>} />
         <Route path="/registration" element={<Registration/>} />
