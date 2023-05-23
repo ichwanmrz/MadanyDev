@@ -18,7 +18,6 @@ function App() {
       <div>
       <Header />
         <Routes>
-        {/* <Route path="/" element={<Home/>}/> */}
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/courses/:id" element={<CourseDetails/>} />
