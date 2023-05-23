@@ -41,7 +41,7 @@ function Header() {
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/dashboard">
                   <BsCart4 className="mr-2 me-2" />
-                  My Courses
+                  My Course
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
