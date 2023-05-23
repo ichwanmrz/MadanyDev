@@ -22,7 +22,7 @@ function Header() {
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav" >
             <Nav className="ml-auto me-auto">
-              <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+              <Nav.Link as={Link} to="/about">About us</Nav.Link>
               <NavDropdown title="Products" id="profile-dropdown">
                 <NavDropdown.Item as={Link} to="/courses">
                   <BsFillPeopleFill className="mr-2 me-2" />
