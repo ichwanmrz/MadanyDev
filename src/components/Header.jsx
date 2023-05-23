@@ -34,7 +34,7 @@ function Header() {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link as={Link} to="/registration">Registration</Nav.Link>
-              <NavDropdown title="Profile" id="profile-dropdown">
+              <NavDropdown title="Login" id="profile-dropdown">
                 <NavDropdown.Item as={Link} to="/profile">
                   <BsPerson className="mr-2 me-2" />
                   My Account
